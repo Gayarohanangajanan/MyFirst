@@ -1,6 +1,6 @@
 # identity-conditional-auth-typingdna
 
-###Installing the connector & extensions
+### Installing the connector & extensions
 
    1. Download the resources/typing-dna folder
         
@@ -31,12 +31,12 @@
       Make sure you have added this before `"/api/"`
   
   
-###Create a TypingDNA account.
+### Create a TypingDNA account.
 You can craete a TypingDNA account from [here](https://www.typingdna.com/clients/signup). 
 Refer this for further information.
   
   
-###Configuring TypingDNA API settings.
+### Configuring TypingDNA API settings.
 Skip this part if you are using developer/free TypingDNA account.
 
    1. Login to typingdna with your account and Configure the following.   
@@ -44,7 +44,7 @@ Skip this part if you are using developer/free TypingDNA account.
 
  ![Alt text](images/screen-shot-2.png?raw=true)
 
-###Configuring the Identity provider
+### Configuring the Identity provider
 
   1. Login to console
   2. Go to Manage -> configurations -> other settings
@@ -59,7 +59,7 @@ Skip this part if you are using developer/free TypingDNA account.
 
  ![Alt text](images/screen-shot-3.png?raw=true)
 
-###Configuring Service provider
+### Configuring Service provider
   
   1. Go to Develop -> Application & Select the sample application you configured
   2. Go to sign-on method
