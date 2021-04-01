@@ -8,8 +8,7 @@ following parameters with data.
 
 | Parameter | Description | Sample values |
 | ----------- | ------------- | ------------- |
-| data.result | A boolean, indicates whether a user's typing pattern is matched with previously enrolled typing 
-   patterns | True - Typing patterns matched  
+| data.result | A boolean, indicates whether a user's typing pattern is matched with previously enrolled typing patterns | True - Typing patterns matched  
    False - Typing patterns not matched|  
    
 
