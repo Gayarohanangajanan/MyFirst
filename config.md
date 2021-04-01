@@ -10,8 +10,7 @@ following parameters with data.
 | ----------- | ------------- | ------------- |
 | data.result | A boolean, indicates whether a user's typing pattern is matched with previously enrolled typing patterns | True - Typing patterns matched, False - Typing patterns not matched |  
 | data.score | A number, between 0 - 100 indicates how well the typing pattern matches with previously enrolled patterns | 0 - Poor matching, 100 - Well matching | 
-| data.confidence | A number, between 0-100 indicates how much confidence TypingDNA has in their result. Can be the measure of accuracy | T0 - Poor confidence 
-100 - Good confidence |
+| data.confidence | A number, between 0-100 indicates how much confidence TypingDNA has in their result. Can be the measure of accuracy | 0 - Poor confidence  100 - Good confidence |
 | data.comparedPatterns | A number, between 1-20 indicates how many previously enrolled patterns were used to verify current typing pattern | 1 - minimum patterns, 20 - Maximum patterns |
 | data.isTypingPatternReceived | A boolean, indicates whether the typing pattern was received from the user. Typing patterns may not be received from users if the admin didn’t deploy the extensions in the login page or if the end users are using the autofill option in the browser | True - Typing patterns has been received , False - Typing patterns hasn’t been received. |
 1. data.result - A boolean, indicates whether a user's typing pattern is matched with previously enrolled typing 
