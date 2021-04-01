@@ -6,6 +6,13 @@
 verifyUserWithTypingDNA function is used to verify the users typing behaviour with typingdna and returns the 
 following parameters with data.
 
+| Parameter | Description | Sample values |
+| ----------- | ------------- | ------------- |
+| data.result | A boolean, indicates whether a user's typing pattern is matched with previously enrolled typing 
+   patterns | True - Typing patterns matched  
+   False - Typing patterns not matched|  
+   
+
 1. data.result - A boolean, indicates whether a user's typing pattern is matched with previously enrolled typing 
    patterns.  
    True - Typing patterns matched  
